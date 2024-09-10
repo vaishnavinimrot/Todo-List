@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #be81c7;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+
+.button-container {
+  display: flex;
+  gap: 10px; 
+}
+
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #218838;
+}
+
+
+.edit-btn {
+  margin-left: 50%;
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #ec9a3b;
+}
+
+
+.delete-btn {
+  
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+
+.clear-btn {
+  background-color: #6c757d;
+  color: white;
+  margin-top: 20px;
+}
+
+.clear-btn:hover {
+  background-color: #5a6268;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
